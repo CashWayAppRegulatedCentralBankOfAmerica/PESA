@@ -1,0 +1,90 @@
+""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>MiniPay Wallet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#1a1a2e] text-white font-sans antialiased">
+    <div class="w-full max-w-sm mx-auto mt-4 p-4">
+        <div class="bg-green-600 rounded-2xl p-4 mb-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-2xl font-bold">$0.10</h2>
+                <div class="flex items-center space-x-2">
+                    <span class="text-xs text-white">USD</span>
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" value="" class="sr-only peer">
+                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-green-300 rounded-full peer peer-checked:bg-green-500"></div>
+                    </label>
+                    <span class="text-xs text-white">KES</span>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <button class="bg-green-700 py-2 rounded-xl text-white font-semibold">Add Cash</button>
+                <button class="bg-green-700 py-2 rounded-xl text-white font-semibold">Withdraw</button>
+            </div>
+        </div>
+
+        <div class="bg-blue-600 rounded-2xl p-4 mb-4">
+            <h3 class="text-lg font-semibold mb-2">You're almost there!</h3>
+            <p class="text-sm mb-3">Get up to $0.25 back on your first add cash transaction. Earn 2% weekly on your savings.</p>
+            <button class="bg-blue-800 w-full py-2 rounded-xl text-white font-semibold">Add Cash</button>
+        </div>
+
+        <div class="bg-gray-800 rounded-2xl p-4">
+            <div class="flex justify-between items-center mb-2">
+                <h3 class="text-lg font-semibold">Recent activity</h3>
+            </div>
+            <div class="space-y-4">
+                <div class="flex justify-between items-center bg-gray-700 p-4 rounded-xl mb-2">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-blue-500 p-2 rounded-full">📦</div>
+                        <div>
+                            <h4 class="font-medium">Reward</h4>
+                            <span class="text-xs text-gray-400">8 hr ago</span>
+                        </div>
+                    </div>
+                    <span class="text-green-400">+$0.01</span>
+                </div>
+
+                <div class="flex justify-between items-center bg-gray-700 p-4 rounded-xl mb-2">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-green-500 p-2 rounded-full">🎁</div>
+                        <div>
+                            <h4 class="font-medium">Reward</h4>
+                            <span class="text-xs text-gray-400">8 hr ago</span>
+                        </div>
+                    </div>
+                    <span class="text-green-400">+$0.10</span>
+                </div>
+
+                <div class="flex justify-between items-center bg-gray-700 p-4 rounded-xl mb-2">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-blue-500 p-2 rounded-full">📦</div>
+                        <div>
+                            <h4 class="font-medium">Reward</h4>
+                            <span class="text-xs text-gray-400">1 day ago</span>
+                        </div>
+                    </div>
+                    <span class="text-green-400">+$0.05</span>
+                </div>
+
+                <div class="flex justify-between items-center bg-gray-700 p-4 rounded-xl mb-2">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-green-500 p-2 rounded-full">🎁</div>
+                        <div>
+                            <h4 class="font-medium">Reward</h4>
+                            <span class="text-xs text-gray-400">2 days ago</span>
+                        </div>
+                    </div>
+                    <span class="text-green-400">+$0.02</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+""
